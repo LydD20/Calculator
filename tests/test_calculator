@@ -1,0 +1,19 @@
+#I keep having issues trying to run tests, not exactly sure what's
+#going on but will keep looking into it.
+
+from calculator import Calculator
+
+'''Test for Addition Function'''
+def test_add():
+    assert Calculator.add(2,2)==4
+
+'''Test for Subtraction Function'''
+def test_subtract():
+    assert Calculator.subtract(2,1)==1
+
+def multiply():
+    assert Calculator.multiply(2,3)==6
+
+'''Test for Dividing Function'''
+def test_divide():
+    assert Calculator.divide(4,2)==2
