@@ -20,3 +20,6 @@ Homework 4 required generating test data with faker and adding package to comman
 2. add new command to pytest to generate N number of records so can reun the command: pytest--num_records=100
 3. add main.py file to serve as entry point to program and add the code from professor's main.py so can have som exception handling program.
 
+##Additional Note:
+My pytests were successful until I added the main.py which failed to recognize main as a module. From there, I tried to fixing the code by exporting a PATH specific to the location of the main.py/main function but still would not work. I checked location, casing, and syntax and still can't figure out the issue. I plan to go back in and try to fix the code but not sure what the next step would be.
+
