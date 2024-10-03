@@ -1,6 +1,7 @@
 import sys
-from calculator import operations
 from decimal import Decimal, InvalidOperation
+from calculator import operations
+
 
 # Initialize an empty history list
 history = []
